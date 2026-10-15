@@ -6,7 +6,6 @@
 				"name": "ForEach1",
 				"type": "ForEach",
 				"dependsOn": [],
-				"userProperties": [],
 				"typeProperties": {
 					"items": {
 						"value": "@pipeline().parameters.loop_input",
