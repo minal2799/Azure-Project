@@ -204,7 +204,7 @@
 								],
 								"ifTrueActivities": [
 									{
-										"name": "updaye_last_cdc",
+										"name": "update_last_cdc",
 										"type": "Copy",
 										"dependsOn": [
 											{
