@@ -159,4 +159,4 @@ and tracks) from a list of parameters, instead of hand-writing each query.
 
 ## Author
 
-**Minal**: MS in Information Systems, Northeastern University
+**Minal Randive**: MS in Information Systems, Northeastern University
