@@ -215,13 +215,6 @@ three versions:
   operators made old checkpoints unusable, so refreshes use a batch append keyed
   on business key and timestamp.
 
-## Limitations and Next Steps
-
-- Each stage is started by hand. A Databricks job chained to a Data Factory
-  trigger would automate it.
-- A watermark load misses a row that arrives late with an older timestamp.
-- Databricks Asset Bundle deployment is not set up.
-- `DimArtist` has no gold table yet.
 
 ## Credit
 
@@ -229,7 +222,6 @@ Built while following a Spotify Azure end-to-end data engineering tutorial by
 Ansh Lamba. The source scripts are from the tutorial's reference project. The
 pipeline, notebooks, tests, and fixes in this repository are my own work.
 
-- Tutorial: *add the video link here*
 
 ## Author
 
